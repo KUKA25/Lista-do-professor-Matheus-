@@ -1,0 +1,17 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <locale.h>
+main()
+{
+	setlocale(LC_ALL,"Portuguese");
+	int num1,num2;
+	float total, media_total;
+	printf("Digite o primeiro número: ");
+	scanf("%i",&num1);
+	printf("Digite o segundo número: ");
+	scanf("%i",&num2);
+	total=num1+num2;
+	media_total=total/2;
+	printf("A soma = %.2f \n",total);
+    printf("A média = %.1f\n",media_total); 
+}

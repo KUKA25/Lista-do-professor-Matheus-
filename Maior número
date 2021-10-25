@@ -1,0 +1,25 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <locale.h>
+int main ()
+{
+	while(1){
+		float n1,n2;
+	setlocale(LC_ALL,"Portuguese");
+	printf("\nEscreva o primeiro número:  ");
+	scanf("%f",&n1);
+	printf("\nEscreva o segundo número:  ");
+	scanf("%f",&n2);
+	if (n1>n2){
+		printf("\nO número %2.f é o maior",n1);
+	}
+	else if (n2>n1){
+		printf("\nO número %2.f é o maior",n2);
+	}
+	else {
+		printf("\nOpção inválida");
+	}
+	}
+		 
+	return 0;
+}

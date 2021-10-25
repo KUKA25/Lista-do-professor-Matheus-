@@ -1,0 +1,26 @@
+#include <stdio.h>
+#include <string.h>
+#define TAM 50
+
+ int main(){
+
+	char nome[TAM];
+	int i, tam;
+	
+	printf("\nDigite o nome: ");
+	gets(nome);
+	
+
+	printf("%s", nome);
+	
+	//Tamanho do nome 
+	tam = strlen(nome);
+	printf ("\nTamanho do nome: %d", tam);
+	
+	printf("\n");
+	//impressão do nome inverso
+	for(i=tam-1; i>=0; i++){
+		printf("%c", nome[i]);
+	}
+	return(0);
+}

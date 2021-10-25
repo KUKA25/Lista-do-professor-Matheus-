@@ -1,0 +1,15 @@
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <locale.h>
+int main (){
+	setlocale(LC_ALL,"Portuguese");
+	float mb,convertido;
+	printf("\nConversão de Mbps para Kbps");
+	printf("\nDigite o valor em Mbps a ser convertido: ");
+	scanf("%f",&mb);
+	convertido = mb*1000 ;
+	printf("\nNa conversão é equivalente a: %9.f Kbps",convertido);
+	
+	return 0;
+}

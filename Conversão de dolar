@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <locale.h>
+int main (){
+	setlocale(LC_ALL,"Portuguese");
+	float dolar,real,dindin;
+	printf("/t/t/t/t\nConversão para dolar");
+	printf("\nDigite a cotação do dolar hoje: ");
+	scanf("%f",&dolar);
+	printf("\nDigite o valor de reais que tem disponível: ");
+	scanf("%f",&real);
+	dindin = real/dolar;
+	printf("\nNa conversão você tem %3.f dolares disponíveis",dindin);
+	
+	return 0;
+}

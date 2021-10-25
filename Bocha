@@ -1,0 +1,22 @@
+bocha
+#include <stdio.h>
+#include <iostream>
+
+using namespace std;
+ 
+int main() {
+	int pt1, pt2, pt3;
+//-----------------------------------
+	cin >> pt1 >> pt2 >> pt3;
+ 
+//-----------------------------------------------------
+	if ( (pt1 > pt2 && pt1 < pt3) || (pt1 > pt3 && pt1 < pt2) ) {
+	    cout << pt1;
+	} else if ( (pt2 > pt1 && pt2 < pt3) || (pt2 > pt3 && pt2 < pt1) ) {
+	    cout << pt2;
+	} else {
+	    cout << pt3;
+	}
+ 
+	return 0;
+}

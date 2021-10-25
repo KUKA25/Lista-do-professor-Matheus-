@@ -1,0 +1,24 @@
+consumidor 
+#include <stdio.h>
+#include <conio.h>
+#include <math.h>
+
+main()
+
+{
+float novo, soma, soma2, precof, precoc;
+char carro[50];
+printf("Qual o carro que gostaria de consultar? ");
+gets(carro);
+printf("De fabrica quanto custa esse carro? ");
+//---------------------------------------------------
+scanf("%f", &precof);
+soma = precof*0.28;
+soma2 = precof*0.45;
+precoc = soma+soma2+precof;
+//-----------------------------------------------------
+printf("\nO carro %s custara %.2f\nCom um custo de %.2f do DISTRIBUIDOR\nE tambem %.2f de IMPOSTO",carro, precoc, soma, soma2);
+
+getch();
+
+}

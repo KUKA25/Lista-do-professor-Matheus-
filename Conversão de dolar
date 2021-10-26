@@ -4,7 +4,7 @@
 int main (){
 	setlocale(LC_ALL,"Portuguese");
 	float dolar,real,dindin;
-	printf("/t/t/t/t\nConversão para dolar");
+	printf("\nConversão para dolar");
 	printf("\nDigite a cotação do dolar hoje: ");
 	scanf("%f",&dolar);
 	printf("\nDigite o valor de reais que tem disponível: ");
